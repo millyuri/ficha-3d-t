@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+<head><title>Ficha_3DeT</title>
+<meta charset="UFT-8">    
+</head>
+<body>
+Nome.<input type="text" id="nomeP"></input>     Experiência <input type="number" id="XP"></input><br><br>
+<center>Atributos</center>
+<!-- ATRIBUTOS -->
+<div> 
+  <table style="float:left" style="width: 50%" >
+    <tr>
+      <th>atributos</th>
+      <th></th>
+      
+    </tr>
+    <tr>
+      <td>Força</td>
+      <td><input type="number" id="atF" value=0></input></td>
+      
+    </tr>
+    <tr>
+      <td>Habilidade</td>
+      <td><input type="number" id="atH" value=0></input></td>
+      
+    </tr>
+    <tr>
+      <td>Resistência</td>
+      <td><input type="number" id="atR" value=0></input></td>
+      
+    </tr>
+    <tr>
+      <td>Armadura</td>
+      <td><input type="number" id="atA" value=0></input></td>
+      
+    </tr>
+    <tr>
+      <td>Poder de Fogo</td>
+      <td><input type="number" id="atPdF" value=0></input></td>
+      
+    </tr>
+  </table>
+<!-- MAGIA -->
+        <table style="float:right" style="width: 50%" >
+      <tr>
+      <th>Focus</th>
+      <th></th>
+      
+      </tr>
+      <tr>
+      <td>Água</td>
+      <td><input type="number" id="atAG" value=0></input></td>
+      </tr>
+      <tr>
+      <td>Ar</td>
+      <td><input type="number" id="atAR" value=0></input></td>  
+      </tr>
+      <tr>
+      <td>Fogo</td>
+      <td><input type="number" id="atFO" value=0></input></td>
+      </tr>
+      <tr>
+      <td>Luz</td>
+      <td><input type="number" id="atLU" value=0></input></td>
+      
+      </tr>
+      <tr>
+      <td>Terra</td>
+      <td><input type="number" id="atTE" value=0></input></td>
+      </tr>
+      <tr>
+      <td>Trevas</td>
+      <td><input type="number" id="atTR" value=0></input></td>
+      </tr>
+  </table>
+
+
+  <br><br>
+</div>
+<br><br><br><br><br><br><br><br><br>
+
+
+<!-- PVs PMs -->
+<div>Pontos de Vida<br><br>
+  <input type="number" id="pv" value="1"
+  readonly></input><br>
+Pontos de Magia<br>
+  <input type="number" id="pm" value="1"
+  readonly></input><br><br>
+</div>
+
+<div>
+<br> <br>
+</div>
+Vantagens<br><br>
+<div>
+    <input type="checkbox" id="v1">
+    <label>Ataque Especial</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="v2">
+    <label>Arma Especial</label>
+  </div><div>
+    <input type="checkbox" id="v3">
+    <label>Levitação</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="v4">
+    <label>Arcano</label>
+  </div>
+  <br><br>
+Desvantagens<br><br>
+  <div>
+    <input type="checkbox" id="d1">
+    <label>Má-Fama</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="d2">
+    <label>Inimigo</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="d3">
+    <label>Devoção</label>
+  </div>
+  <div>
+    <input type="checkbox" id="d4">
+    <label>Fúria</label>
+  </div>
+Vantegens e Desvantagens Únicas<br><br>
+<div>
+  <form method="post">
+    <select name="unica" id="raca">
+      <option value="humano" defout>Humano</option>  
+    <option value="vampiro">Vampiro</option>
+    <option value="elfo">Elfo</option>
+    <option value="meio-dragão">Meio-Dragão</option>
+    <option value="centauro">Centauro</option>
+    </select>
+  </div><br>
+  
+ 
+Itens<br><br>
+
+
+<input type="button" id="base" value="base" name="conclusao">
+<input type="button" id="conclusao" value="Conclusão" name="conclusao">
+
+
+
+<script src="cod.js"></script>
+
+</body>
+
+</html>
